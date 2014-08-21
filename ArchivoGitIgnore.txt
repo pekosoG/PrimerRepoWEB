@@ -1,0 +1,18 @@
+#####################
+# Reglas Git Ignore #
+#####################
+
+El GitIgnore es un archivo (.gitignore) de configuracion donde le dices a Git
+que archivos NO tiene que evitar. Donde puedes escribir directamete que archivos
+omitir o puedes usar patrones (una especie de REGEX) para que git evite todos
+los archivos de cierta extensión (por ejemplo) o todo lo que se encuentre en cierto directorio.
+
+Los comentarion en este archivo, comienzan con el Hashtag '#'
+
+por ejemplo:
+
+#Estas lineas omitirán los archivos .class, .dll y .exe
+
+*.class
+*.dll
+*.exe
